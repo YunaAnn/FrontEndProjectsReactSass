@@ -1,0 +1,53 @@
+//Variables
+$white-font-color: #ffffff;
+$body-background-color: #333;
+$pink-color: #e05555cc;
+$pink-hover-color: #f88585cc;
+$font-for-stylish: "Copperplate";
+$font-for-hello-world: "Lucida Handwriting";
+
+body
+{
+    color: $white-font-color;
+    background: $body-background-color;
+}
+
+h1 
+{ 
+    font-family: $font-for-hello-world;
+    font-size: 60px;
+}
+
+h2 
+{
+    font-family: $font-for-stylish;
+    color: $pink-color;
+    font-size: 45px;
+}
+
+.stylish-hello-world
+{
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 50%;
+    width: 100%; 
+}
+
+.navigation
+{
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 10%;
+    width: 100%; 
+}
+
+i 
+{
+    color: $pink-color;
+    font-size: 50px;
+    padding: 0 10px 0 10px;
+}
+
+i:hover {color: $pink-hover-color;}
